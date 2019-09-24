@@ -12,7 +12,7 @@ public class Checking extends Account {
         last10withdraws[numwithdraws] = amount;
         SetBalance(GetBalance() - amount);
         last10checks[numwithdraws] = checknum;
-        numwithdraws++;
+        numdeposits++;
     }
 
     public void DepositCheck(int checknum, double amount){

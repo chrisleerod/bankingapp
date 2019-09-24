@@ -11,7 +11,7 @@ public class Savings extends Account {
     public void dodeposit(double amount){
         SetBalance(GetBalance() + amount);
         last10deposits[numdeposits] = amount;
-        numwithdraws++;
+        numdeposits++;
     }
 
     public void dowithdraw(double amount){
